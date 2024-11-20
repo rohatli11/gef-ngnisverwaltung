@@ -20,7 +20,7 @@ class Form1(Form1Template):
     print(zellennummeranzahl)
     for x in range(len(zellennummeranzahl)):
       print(zellennummeranzahl[x][0])
-      self.repeating_zellen.items = [{'zellennummer': zellennummeranzahl[x][0], 'anzahl_häftlinge': 'TODO'}]
+      self.repeating_zellen.item = [{'zellennummer': zellennummeranzahl[x][0], 'anzahl_häftlinge': 'TODO'}]
 
   def gefaengnisse_drop_down_change(self, **event_args):
     """This method is called when an item is selected"""
